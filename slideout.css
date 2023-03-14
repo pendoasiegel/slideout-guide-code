@@ -1,0 +1,160 @@
+height: 100% !important;
+min-width: 450px !important;
+top: 0px !important;
+margin-top: 0px !important;
+overflow: hidden !important;
+max-height: none !important;
+
+#pendo-guide-container {
+    height: 100% !important;
+	min-width: 450px !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    max-height: none !important;
+}
+
+.pendo-code-block {
+    width: 450px !important;
+    margin-left: -32px;
+    padding-bottom: 20px;
+    position: relative;
+/*    top: 30px !important; */
+}
+
+.header {
+    display: block;
+    color: #2A2C35;
+    }
+
+.nav_controls {
+    display: flex;
+    position: relative;
+    margin-bottom: 8px;
+    height: 20px;
+    width: 450px;
+    align-items: flex-end;
+    color: rgb(106, 108, 117);
+}
+
+.fake_nav_header {
+    width: 450px;
+    height: 50px;
+    display: inline-flex;
+    border-bottom: 1px solid #dadce5;
+}
+
+.fake_tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    border-radius: 0px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: white;
+}
+
+.fake_tab_text {
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.active {
+    border-bottom: none;
+    background-color: white;
+    font-weight: 600;
+}
+
+.active_bar {
+    background-color: #2a2c35;
+    height: 2px;
+    width: 100px;
+    content: "";
+    left: auto;
+    margin: 0;
+    position: absolute;
+    right: auto;
+    bottom: 0;
+}
+
+.slideout_close {
+    border: 0px;
+    font-weight: 100;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(106, 108, 117);
+    border-radius: 0px;
+    position: absolute;
+    font-size: 28px;
+    z-index: 20;
+    right: 15px;
+    top: 5px;
+    float: none;
+    vertical-align: baseline;
+    left: auto;
+    padding: 0px;
+    overflow: visible;
+    font-family: Helvetica;
+    min-height: 20px;
+    margin: 0px;
+    line-height: 1;
+    min-width: 0px;
+    animation: 0s ease 0s 1 normal none running none;
+}
+
+.slideout_close:hover {
+    color: #2A2C35;
+}
+
+.minimize {
+    border: 0px;
+    font-weight: 100;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(106, 108, 117);
+    border-radius: 0px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+    z-index: 20;
+    right: 45px;
+    top: 12px;
+    float: none;
+    vertical-align: baseline;
+    left: auto;
+    padding: 0px;
+    overflow: visible;
+    font-family: Helvetica;
+    min-height: 20px;
+    margin: 0px;
+    line-height: 1;
+    min-width: 0px;
+    animation: 0s ease 0s 1 normal none running none;
+}
+
+.minimize:hover {
+    color: #2A2C35;
+}
+
+#guideLauncher:hover {
+    background-color: #eaecf1;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dadce5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(106, 108, 117);
+}
